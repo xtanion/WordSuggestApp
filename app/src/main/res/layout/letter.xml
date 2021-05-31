@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_margin="10dp"
+    android:id="@+id/letter_card">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/letter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Letter"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        app:cornerRadius="30dp"
+        app:backgroundTint="?attr/colorPrimary"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+
+</androidx.cardview.widget.CardView>
